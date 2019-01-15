@@ -1,10 +1,9 @@
-import {
-    combineReducers
-} from 'redux'
-import session from './session/reducer';
-import chat from './chat/reducer'
+import { combineReducers } from 'redux'
+
+import session from './session'
+import chat from './chat'
 
 export default combineReducers({
-    session,
-    chat
+  session,
+  chat
 })
